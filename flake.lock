@@ -1,0 +1,45 @@
+{
+  "nodes": {
+    "gamemaker-flake": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1786488292,
+        "narHash": "sha256-R4DFxHSdDtkF0bauOqK3/ghxBTmpSSkMjn1aSICtiqM=",
+        "owner": "skirlez",
+        "repo": "gamemaker-flake",
+        "rev": "21db72b24816c29170b7c05e83bbf6f0b6fffcca",
+        "type": "github"
+      },
+      "original": {
+        "owner": "skirlez",
+        "repo": "gamemaker-flake",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1786384358,
+        "narHash": "sha256-RzPPiWeUtuvymnpuEWsdtzli5w4kjZs49FqEs3/1u+I=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "2fcb964de67fcf60b43471c55d5d99e61a9ccb5a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "gamemaker-flake": "gamemaker-flake"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

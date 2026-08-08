@@ -2,7 +2,7 @@ if global.intensevis {
 	if !surface_exists(rainbowsurface) {
 		rainbowsurface = surface_create(1920, 360)
 		surface_set_target(rainbowsurface)
-
+		draw_clear_alpha(c_black, 0)
 		draw_sprite_ext(spr_rainbow, 0, 0, 0, 10, 10, 0, c_white, 1)
 		draw_sprite_ext(spr_rainbow, 0, 640, 0, 10, 10, 0, c_white, 1)
 		draw_sprite_ext(spr_rainbow, 0, 1280, 0, 10, 10, 0, c_white, 1)

@@ -5,7 +5,7 @@ points_y = []
 steps = 0
 refresh = 3
 
-rainbowsurface = 0
+rainbowsurface = -1
 timeroffset = 0
 color = 255
 //turn = 1
