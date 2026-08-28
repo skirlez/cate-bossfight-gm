@@ -1,6 +1,6 @@
 {
   "option_html5_browser_title": "Cate Bossfight",
-  "option_html5_version": "1.0.0.0",
+  "option_html5_version": "1.7.1.0",
   "option_html5_foldername": "cate",
   "option_html5_outputname": "index.html",
   "option_html5_splash_png": "${base_options_dir}/html5/splash.png",
